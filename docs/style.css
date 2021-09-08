@@ -1,0 +1,10 @@
+h2{
+  text-align: center;
+}
+
+.prefecture{
+  border-radius: 10px;
+  border: 1px solid black;
+  box -shadow: 2px 2px black;
+  margin: 10px;
+}
