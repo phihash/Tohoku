@@ -1,10 +1,45 @@
+body{
+  background-color: #aecbcd;
+  ont-family: 'Noto Sans', sans-serif;
+}
+
 h2{
   text-align: center;
+  font-size: 2rem;
+}
+
+.container{
+  display: flex;
 }
 
 .prefecture{
+  background-color: white;
   border-radius: 10px;
-  border: 1px solid black;
-  box -shadow: 2px 2px black;
+  border: 2px solid #484443;
+  width: 33%;
   margin: 10px;
+}
+
+.prefecture h3,p{
+  padding-left: 2rem;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+.prefecture:hover{
+  box-shadow: 2px 2px#484443;
+  cursor: pointer;
+}
+
+@media (max-width:768px) {
+  .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .prefecture{
+    width: 90%;
+    margin: 1rem auto;
+  }
 }
